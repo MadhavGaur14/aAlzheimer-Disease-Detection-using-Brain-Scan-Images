@@ -42,31 +42,8 @@ The dataset is divided into 80% training and 20% testing sets. The training set 
    - The training history (`hist`) is obtained, which contains the training and validation metrics for each epoch.
    - The training progress is analyzed and visualized using tools like matplotlib and seaborn to plot accuracy and loss curves, confusion matrix, and the classification report.
 
-## Model Performance
-
-The model summary obatined from Keras is shown below:
-<img src="./model.png">
-
-The model achieved an accuracy of 99.8% on the Kaggle platform using an Epoch value of 200. The accuracy and loss curves, confusion matrix and classification report for the model are shown below:
-
-### Loss Curve
-<img src="./loss-curve.png">
-
-### Accuracy Curve
-<img src="./accuracy-curve.png">
-
-### Classification Summary
-<img src="./classification-report.png">
-
-### Confusion Matrix
-<img src="./confusion-matrix-heatmap.png">
 
 ## Conclusion
 
 The model achieved an accuracy of 95% on the Kaggle platform. The model was able to accurately classify the images into the 4 classes with a high degree of accuracy. The model can be further improved by using a larger dataset and by using more advanced deep learning techniques. The model can also be used to classify other types of images into multiple classes.
 
-The notebook can be viewed online on the Kaggle platform: [Kaggle Notebook Link](https://www.kaggle.com/code/darthsalad/dsai-alzheimer-s-detection-b120041-b120067/notebook?scriptVersionId=131539220)
-
-## Contributors
-- [B120041 - Piyush Mishra](https://github.com/DarthSalad)
-- [B120067 - V. Karteek](https://github.com/karteek-02)
